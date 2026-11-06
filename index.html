@@ -1,0 +1,285 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Déjà Brew | Make Today Taste a Little Better</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <input type="checkbox" name="" id="menu_toggle" />
+
+      <a href="#" id="logo_a"><h1 class="logo">Déjà Brew</h1></a>
+
+      <label for="menu_toggle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="lucide lucide-menu preview-icon"
+        >
+          <path d="M4 5h16" />
+          <path d="M4 12h16" />
+          <path d="M4 19h16" />
+        </svg>
+      </label>
+      <label for="menu_toggle" class="overlay"></label>
+
+      <div class="menu_list">
+        <div class="menu_div">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Our Coffee</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero_section">
+        <div class="hero_text">
+          <h1>Great coffee. Over and over again.</h1>
+          <h3>
+            Your cozy neighborhood haven for specialty espresso, fresh pastries,
+            and stay-all-day vibes.
+          </h3>
+
+          <a class="cta_btn" href="#">Explore Our Menu</a>
+        </div>
+        <div class="hero_img">
+          <div class="hero_img_div">
+            <img
+              src="https://images.unsplash.com/photo-1507914464562-6ff4ac29692f?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="menu_section">
+        <h2 id="menu_title">Popular Brews & Treats</h2>
+
+        <div class="coffee_div">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-coffee preview-icon"
+          >
+            <path d="M10 2v2" />
+            <path d="M14 2v2" />
+            <path
+              d="M16 8a1 1 0 0 1 1 1v8a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V9a1 1 0 0 1 1-1h14a4 4 0 1 1 0 8h-1"
+            />
+            <path d="M6 2v2" />
+          </svg>
+        </div>
+
+        <div class="menu_grid">
+          <div class="card">
+            <div class="card_top">
+              <div class="text_left">
+                <h3>Espresso</h3>
+                <div class="pr_div">
+                  <div class="rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="#432b22"
+                      stroke="#c88a58"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 01.95 0l2.31 4.679a2.12 2.12 0 001.595 1.16l5.166.756a.53.53 0 01.294.904l-3.736 3.638a2.12 2.12 0 00-.611 1.878l.882 5.14a.53.53 0 01-.771.56l-4.618-2.428a2.12 2.12 0 00-1.973 0L6.396 21.01a.53.53 0 01-.77-.56l.881-5.139a2.12 2.12 0 00-.611-1.879L2.16 9.795a.53.53 0 01.294-.906l5.165-.755a2.12 2.12 0 001.597-1.16z"
+                      />
+                    </svg>
+                    <p>4.8</p>
+                  </div>
+                </div>
+              </div>
+              <div class="img_right">
+                <img
+                  src="https://images.unsplash.com/photo-1579992357154-faf4bde95b3d?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card_bottom">
+              <p>Rich, concentrated double shot</p>
+              <div class="hr">
+                <div></div>
+              </div>
+              <div class="card_bottom_cta">
+                <a href="#">I’ll take one</a>
+
+                <p>$3.50</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <div class="text_left">
+                <h3>Vanilla Latte</h3>
+                <div class="pr_div">
+                  <div class="rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="#432b22"
+                      stroke="#c88a58"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 01.95 0l2.31 4.679a2.12 2.12 0 001.595 1.16l5.166.756a.53.53 0 01.294.904l-3.736 3.638a2.12 2.12 0 00-.611 1.878l.882 5.14a.53.53 0 01-.771.56l-4.618-2.428a2.12 2.12 0 00-1.973 0L6.396 21.01a.53.53 0 01-.77-.56l.881-5.139a2.12 2.12 0 00-.611-1.879L2.16 9.795a.53.53 0 01.294-.906l5.165-.755a2.12 2.12 0 001.597-1.16z"
+                      />
+                    </svg>
+                    <p>4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div class="img_right">
+                <img
+                  src="https://images.unsplash.com/photo-1611077146923-6b4964949f3c?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card_bottom">
+              <p>House-made syrup & steamed oat milk</p>
+              <div class="hr">
+                <div></div>
+              </div>
+              <div class="card_bottom_cta">
+                <a href="#">I’ll take one</a>
+
+                <p>$5.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <div class="text_left">
+                <h3>Cold Brew</h3>
+                <div class="pr_div">
+                  <div class="rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="#432b22"
+                      stroke="#c88a58"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 01.95 0l2.31 4.679a2.12 2.12 0 001.595 1.16l5.166.756a.53.53 0 01.294.904l-3.736 3.638a2.12 2.12 0 00-.611 1.878l.882 5.14a.53.53 0 01-.771.56l-4.618-2.428a2.12 2.12 0 00-1.973 0L6.396 21.01a.53.53 0 01-.77-.56l.881-5.139a2.12 2.12 0 00-.611-1.879L2.16 9.795a.53.53 0 01.294-.906l5.165-.755a2.12 2.12 0 001.597-1.16z"
+                      />
+                    </svg>
+                    <p>4.9</p>
+                  </div>
+                </div>
+              </div>
+              <div class="img_right">
+                <img
+                  src="https://images.unsplash.com/photo-1642647392045-8592bf9b5900?q=80&w=686&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card_bottom">
+              <p>Steeped for 18 hours, smooth finish</p>
+              <div class="hr">
+                <div></div>
+              </div>
+              <div class="card_bottom_cta">
+                <a href="#">I’ll take one</a>
+
+                <p>$4.50</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card_top">
+              <div class="text_left">
+                <h3>Matcha Latte</h3>
+                <div class="pr_div">
+                  <div class="rating">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="#432b22"
+                      stroke="#c88a58"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path
+                        d="M11.525 2.295a.53.53 0 01.95 0l2.31 4.679a2.12 2.12 0 001.595 1.16l5.166.756a.53.53 0 01.294.904l-3.736 3.638a2.12 2.12 0 00-.611 1.878l.882 5.14a.53.53 0 01-.771.56l-4.618-2.428a2.12 2.12 0 00-1.973 0L6.396 21.01a.53.53 0 01-.77-.56l.881-5.139a2.12 2.12 0 00-.611-1.879L2.16 9.795a.53.53 0 01.294-.906l5.165-.755a2.12 2.12 0 001.597-1.16z"
+                      />
+                    </svg>
+                    <p>5</p>
+                  </div>
+                </div>
+              </div>
+              <div class="img_right">
+                <img
+                  src="https://images.unsplash.com/photo-1775846933630-3c1531299e5a?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div class="card_bottom">
+              <p>Ceremonial grade matcha with honey</p>
+              <div class="hr">
+                <div></div>
+              </div>
+              <div class="card_bottom_cta">
+                <a href="#">I’ll take one</a>
+
+                <p>$4.50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
